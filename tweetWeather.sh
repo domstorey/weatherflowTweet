@@ -11,7 +11,7 @@ echo "mb, Humid: " | tr -d '\n' >> /home/user/weatherflow.txt
 cat obs.txt | jq -r '.obs[0].relative_humidity' | tr -d '\n' >> /home/user/weatherflow.txt
 
 echo "%, Rain: " | tr -d '\n' >> /home/user/weatherflow.txt
-cat obs.txt | jq -r '.obs[0].precip_accum_local_day' | tr -d '\n' >> /home/user/weatherflow.txt
+cat obs.txt | jq -r '.obs[0].precip_accum_local_day' | tr -d '\n' | xargs printf "%.2f" >> /home/user/weatherflow.txt
 
 echo "mm, Gust: " | tr -d '\n' >> /home/user/weatherflow.txt
 cat obs.txt | jq -r '.obs[0].wind_gust' | tr -d '\n' >> /home/user/weatherflow.txt
