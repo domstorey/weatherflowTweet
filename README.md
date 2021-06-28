@@ -1,5 +1,5 @@
 <!-- This should be the location of the title of the repository, normally the short name -->
-# repo-template
+# weatherflowTweet
 
 <!-- Build Status, is a great thing to have at the top of your repository, it shows that you take your CI/CD as first class citizens -->
 <!-- [![Build Status](https://travis-ci.org/jjasghar/ibm-cloud-cli.svg?branch=master)](https://travis-ci.org/jjasghar/ibm-cloud-cli) -->
@@ -7,7 +7,20 @@
 <!-- Not always needed, but a scope helps the user understand in a short sentance like below, why this repo exists -->
 ## Scope
 
-The purpose of this project is to provide a template for new open source repositories.
+Simple compact weather tweet 
+
+https://twitter.com/weatherStorey
+
+```
+T: 18.5c
+P: 1011.6mb steady
+Humid: 88%
+Rain: 5.568037mm
+Gust: 0.5mph
+Bright: 19400lux
+UV: 1.73
+Strikes: 0 (25km Sun Jun 27 15:48:57 BST 2021
+```
 
 <!-- A more detailed Usage or detailed explaination of the repository here -->
 ## Usage
