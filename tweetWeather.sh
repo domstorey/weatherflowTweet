@@ -1,5 +1,5 @@
 cd /home/user/weather/pywws
-curl -X GET --header 'Accept: application/json' 'https://swd.weatherflow.com/swd/rest/observations/station/<YOUR STATION>?<YOUR TOKEN>' 2>/dev/null  | jq -r '.obs[0]' > /home/dstorey/obs.txt
+curl -X GET --header 'Accept: application/json' 'https://swd.weatherflow.com/swd/rest/observations/station/<YOUR STATION>?<YOUR TOKEN>' 2>/dev/null  | jq -r '.obs[0]' > /home/user/obs.txt
 
 echo "T: " | tr -d '\n' > /home/user/weatherflow.txt
 cat obs.txt | jq -r '.obs[0].air_temperature' | tr -d '\n' >> /home/user/weatherflow.txt
