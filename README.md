@@ -15,7 +15,7 @@ https://twitter.com/weatherStorey
 T: 18.5c
 P: 1011.6mb steady
 Humid: 88%
-Rain: 5.568037mm
+Rain: 5.56mm
 Gust: 0.5mph
 Bright: 19400lux
 UV: 1.73
