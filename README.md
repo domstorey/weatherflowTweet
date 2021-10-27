@@ -19,7 +19,7 @@ Rain: 5.56mm
 Gust: 0.5mph
 Bright: 19400lux
 UV: 1.73
-Strikes: 0 (25km Sun Jun 27 15:48:57 BST 2021
+Strikes: 0 (25km Sun Jun 27 15:48:57 BST 2021)
 ```
 
 Uses the https://github.com/jim-easterbrook/pywws library to send tweets
