@@ -2,7 +2,7 @@ from envirophat import leds
 # leds.on()
 leds.off()
 
-# reduce temperature as close too processor by 9c
+# reduce temperature as close too processor by 8c
 fudge = 8.0
 
 from envirophat import weather
