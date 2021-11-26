@@ -1,6 +1,6 @@
 cd /home/pi/weather
 
-curl -X GET --header 'Accept: application/json' 'https://swd.weatherflow.com/swd/rest/observations/station/33047?token=9dffde4f-890b-4720-b590-ca58590bd8b7' 2>/dev/null > /home/pi/weather/obs.txt
+curl -X GET --header 'Accept: application/json' 'https://swd.weatherflow.com/swd/rest/observations/station/<stationID>?token=<tokenID>' 2>/dev/null > /home/pi/weather/obs.txt
 
 echo "T: " | tr -d '\n' > /home/pi/weather/weatherflow.txt
 cat /home/pi/weather/obs.txt | jq -r '.obs[0].air_temperature' | tr -d '\n' >> /home/pi/weather/weatherflow.txt
